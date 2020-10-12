@@ -1,0 +1,8 @@
+references/*
+tiddly_wiki*
+build*/*
+dist*/*
+logs/*
+__pycache__/*
+*.xpi
+.*.swp

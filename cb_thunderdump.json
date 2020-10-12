@@ -1,0 +1,7 @@
+{
+"name": "cb_thunderdump",
+"description": "cb_thunderdump is a cb_thunderlink helper.",
+"path": "cb_thunderdump.exe",
+"type": "stdio",
+"allowed_extensions": [ "cb_thunderdump@bouchier.be" ]
+}

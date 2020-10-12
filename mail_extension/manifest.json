@@ -1,0 +1,70 @@
+{
+"manifest_version": 2,
+"name": "cb_thunderdump",
+"description": "cb_thunderdump is dumping ids in support of cb_thunderlink.",
+"version": "1.0",
+"author": "camiel@bouchier.be",
+"applications": 
+    {
+    "gecko": 
+        {
+        "id": "cb_thunderdump@bouchier.be",
+        "strict_min_version": "66.0"
+        }
+    },
+"browser_action": 
+    {
+    "default_title": "cb_thunderdump",
+    "default_icon": "images/internet-32px.png"
+    },
+"permissions": 
+    [
+    "accountsFolders",
+    "accountsRead",
+    "activeTab",
+    "addressBooks",
+    "alarms",
+    "browserSettings",
+    "clipboardRead",
+    "clipboardWrite",
+    "contextualIdentities",
+    "cookies",
+    "dns",
+    "downloads",
+    "downloads.open",
+    "geolocation",
+    "idle",
+    "management",
+    "menus",
+    "menus.overrideContext",
+    "messagesMove",
+    "messagesRead",
+    "nativeMessaging",
+    "notifications",
+    "pkcs11",
+    "privacy",
+    "proxy",
+    "storage",
+    "tabHide",
+    "tabs",
+    "theme",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+    ],
+"icons": 
+    {
+    "64": "images/internet.png",
+    "32": "images/internet-32px.png",
+    "16": "images/internet-16px.png"
+	},
+"background": 
+    {
+	"scripts": 
+        [
+		"cb_background.js"
+		],
+	"persistent": false
+    }
+}
